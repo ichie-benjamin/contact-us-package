@@ -1,0 +1,26 @@
+{
+    "name": "benny/contact-us",
+    "description": "This will save contact message to database and send email to admin",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Benjamin Chukwudi",
+            "email": "benjaminchukwudi0@gmail.com"
+        }
+    ],
+    "minimum-stability": "@dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Benny\\Contact\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Benny\\Contact\\ContactServiceProvider"
+            ]
+        }
+    }
+}
